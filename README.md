@@ -1,6 +1,6 @@
 # ICS613-50 Group Project
-
-Group Members: Prakat Tuladhar, Seong Kang
+---
+Group Members: Prakat Tuladhar, Seong Kang<br/>
 Date: Fall of 2022
 
 The goal of this project to use the big data computing tools we cover in this class to analyze and
@@ -11,3 +11,7 @@ consider:
 - Presentation, summarization, and visualization of your results.
 - Report writing.
 
+### Datasets
+- [Stocks](https://www.kaggle.com/datasets/vainero/google-apple-facebook-stock-price)
+- [Robinhood](https://www.kaggle.com/datasets/cprimozi/robinhood-stock-popularity-history)
+- [COVID](https://covid.cdc.gov/covid-data-tracker/#trends_weeklycases_select_00)

@@ -1,5 +1,13 @@
 # ICS613-50 Group Project
 ---
+<img 
+  src="https://github.com/prakattuladhar/big-data-uni-project/blob/main/pyspark/img/Figure-2.1.png" 
+  alt="Stock Analysis" 
+  width="250" 
+  height="200"
+/>
+<br/>
+
 Group Members: Prakat Tuladhar, Seong Kang<br/>
 Date: Fall of 2022
 
@@ -10,13 +18,6 @@ consider:
 - The selected data analysis tasks.
 - Presentation, summarization, and visualization of your results.
 - Report writing.
-
-<img 
-  src="https://github.com/prakattuladhar/big-data-uni-project/blob/main/python-src/img/Figure-2.1.png" 
-  alt="Stock Analysis" 
-  width="250" 
-  height="200"
-/>
 
 ### Datasets
 - [Stocks](https://www.kaggle.com/datasets/vainero/google-apple-facebook-stock-price)

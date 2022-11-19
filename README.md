@@ -11,6 +11,8 @@ consider:
 - Presentation, summarization, and visualization of your results.
 - Report writing.
 
+<img src="https://github.com/prakattuladhar/big-data-uni-project/blob/main/python-src/img/Figure-2.1.png" alt="Stock Analysis" width="500" height="500">
+
 ### Datasets
 - [Stocks](https://www.kaggle.com/datasets/vainero/google-apple-facebook-stock-price)
 - [Robinhood](https://www.kaggle.com/datasets/cprimozi/robinhood-stock-popularity-history)

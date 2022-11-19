@@ -13,6 +13,11 @@ consider:
 
 ### Data Analysis
 Analysis done over 3 stock tickers, robinhood holding volume and COVID data for interesting trends.
+1. Combine the datasets for different files into a single file for Stock price database and Robinhood popularity stock.
+2. Get the average of prices of those 3 stocks for trend and comparison.
+3. Compare the weekly transaction volume of the 3 stocks and see how that fluctuate based on the Covid19 case weekly total.
+4. Get user change for a given day for Robinhood user stock holding data.
+5. Comparing relation between Stock Prices and Robihoob user’s holdings over a month’s period. Get how many days over the year the stocks dipped and the number of holders in robinhood increased.
 <br/>
 <img 
   src="https://github.com/prakattuladhar/big-data-uni-project/blob/main/pyspark/img/Figure-2.1.png" 

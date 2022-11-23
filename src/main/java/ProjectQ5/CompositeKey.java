@@ -1,4 +1,4 @@
-//import org.apache.curator.shaded.com.google.common.collect.ComparisonChain;
+package ProjectQ5;//import org.apache.curator.shaded.com.google.common.collect.ComparisonChain;
 
 import com.google.common.collect.ComparisonChain;
 import org.apache.hadoop.io.Text;

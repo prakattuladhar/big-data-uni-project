@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c20b247-b3f2-4fe1-ac0c-0a92e3b830ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhood-input/robin_AAPL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/robinhood-input/robin_AAPL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CompositeKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/CompositeKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CompositeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/CompositeValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Reducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CompositeKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CompositeValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Reducer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +60,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/robinhood-input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stocks-input" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stocks-input" />
+      <recent name="$PROJECT_DIR$/src/main/java/ProjectQ5" />
       <recent name="$PROJECT_DIR$/robinhood-input" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -63,16 +75,27 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ProjectQ5" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProjectQ5Job1">
     <configuration name="ProjectQ4" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ProjectQ4Driver" />
+      <option name="MAIN_CLASS_NAME" value="ProjectQ4.ProjectQ4Driver" />
       <module name="Homework2" />
       <option name="PROGRAM_PARAMETERS" value="robinhood-input robinhood-output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectQ5Job1" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ProjectQ5.ProjectQ5Job1Driver" />
+      <module name="Homework2" />
+      <option name="PROGRAM_PARAMETERS" value="stocks-input job1-output" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +111,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ProjectQ4" />
+      <item itemvalue="Application.ProjectQ5Job1" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

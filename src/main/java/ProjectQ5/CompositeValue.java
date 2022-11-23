@@ -1,6 +1,7 @@
-//import org.apache.curator.shaded.com.google.common.collect.ComparisonChain;
+package ProjectQ5;//import org.apache.curator.shaded.com.google.common.collect.ComparisonChain;
 
 import com.google.common.collect.ComparisonChain;
+import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
@@ -12,49 +13,55 @@ import java.util.Objects;
 
 public class CompositeValue implements WritableComparable<CompositeValue> {
 
-    public Text time;
+    public Text identifier;
+    public FloatWritable price;
     public IntWritable users;
 
     public CompositeValue() {
-        this.time = new Text();
+        this.identifier = new Text();
+        this.price = new FloatWritable();
         this.users = new IntWritable();
     }
 
-    public CompositeValue(Text time, IntWritable users) {
-        this.time = time;
+    public CompositeValue(Text identifier, FloatWritable price, IntWritable users) {
+        this.identifier = identifier;
+        this.price = price;
         this.users = users;
     }
 
 
     @Override
     public int compareTo(CompositeValue o) {
-        return ComparisonChain.start().compare(this.time.toString(), o.time.toString())
+        return ComparisonChain.start().compare(this.price.toString(), o.price.toString())
                 .compare(this.users, o.users)
+                .compare(this.identifier, o.identifier)
                 .result();
     }
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
-        time.write(dataOutput);
+        identifier.write(dataOutput);
+        price.write(dataOutput);
         users.write(dataOutput);
 
     }
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        time.readFields(dataInput);
+        identifier.readFields(dataInput);
+        price.readFields(dataInput);
         users.readFields(dataInput);
     }
 
 
     @Override
     public int hashCode() {
-        return Objects.hash(time, users);
+        return Objects.hash(price, users);
     }
 
     @Override
     public String toString() {
-        return "(" + this.time + "," + this.users + ")";
+        return "(" + this.identifier + "," + this.price + "," + this.users + ")";
 
     }
 }

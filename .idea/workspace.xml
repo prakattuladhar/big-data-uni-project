@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c20b247-b3f2-4fe1-ac0c-0a92e3b830ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ4Job1Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Reducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ4Job1Reducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job1Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job1Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job2Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job2Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job2Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job2Reducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job2Reducer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

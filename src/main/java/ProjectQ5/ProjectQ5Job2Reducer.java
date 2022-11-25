@@ -19,8 +19,8 @@ public class ProjectQ5Job2Reducer extends Reducer<CompositeKey, Text, Text, Text
             }
 
         }
-     
-        context.write(new Text(key.toString()), new Text(String.valueOf(count)));
+
+        context.write(new Text(key.symbol.toString() + " " + key.date.toString()), new Text(String.valueOf(count)));
     }
 
 }

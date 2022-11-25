@@ -7,16 +7,10 @@
     <list default="true" id="9c20b247-b3f2-4fe1-ac0c-0a92e3b830ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CompositeKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/CompositeKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CompositeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/CompositeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ4Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ4/ProjectQ4Reducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CompositeKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CompositeValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ4Reducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ4Job1Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Reducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectQ5/ProjectQ5Job1Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ4Job1Reducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job1Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjectQ5/ProjectQ5Job1Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProjectQ5Job1">
+  <component name="RunManager" selected="Application.ProjectQ5Job2">
     <configuration name="ProjectQ4" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -100,6 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProjectQ5Job2" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ProjectQ5.ProjectQ5Job2Driver" />
+      <module name="Homework2" />
+      <option name="PROGRAM_PARAMETERS" value="job1-output job2-output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,6 +118,7 @@
     <list>
       <item itemvalue="Application.ProjectQ4" />
       <item itemvalue="Application.ProjectQ5Job1" />
+      <item itemvalue="Application.ProjectQ5Job2" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

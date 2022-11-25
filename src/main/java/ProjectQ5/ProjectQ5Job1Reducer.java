@@ -5,7 +5,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class ProjectQ4Job1Reducer extends Reducer<CompositeKey, CompositeValue, Text, Text> {
+public class ProjectQ5Job1Reducer extends Reducer<CompositeKey, CompositeValue, Text, Text> {
 
 
     public void reduce(CompositeKey key, Iterable<CompositeValue> values, Context context)
@@ -25,8 +25,7 @@ public class ProjectQ4Job1Reducer extends Reducer<CompositeKey, CompositeValue, 
                 users = "0";
             }
         }
-        System.out.println(price);
-        System.out.println(users);
+
         if (!users.equals("") && !price.equals(""))
             context.write(new Text(key.symbol + " " + key.date), new Text(price + " " + users));
     }

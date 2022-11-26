@@ -49,19 +49,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stocks-input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oozie-job" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oozie-job" />
       <recent name="$PROJECT_DIR$/stocks-input" />
       <recent name="$PROJECT_DIR$/src/main/java/ProjectQ5" />
       <recent name="$PROJECT_DIR$/robinhood-input" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/python-src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ProjectQ5" />
